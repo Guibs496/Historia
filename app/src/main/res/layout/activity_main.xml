@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/background">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Faits Historiques"
+        android:textSize="24sp"
+        android:textColor="@color/title"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Fact TextView -->
+    <TextView
+        android:id="@+id/factTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="@color/fact_text"
+        android:layout_below="@id/title"
+        android:layout_marginBottom="16dp"
+        android:layout_centerHorizontal="true"/>
+
+    <!-- Button to Generate New Fact -->
+    <Button
+        android:id="@+id/newFactButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Générer un fait"
+        android:layout_below="@id/factTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/button_background"
+        android:textColor="@android:color/white"/>
+
+</RelativeLayout>
