@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "257312861497",
+    "firebase_url": "https://historia-9faa6-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "historia-9faa6",
+    "storage_bucket": "historia-9faa6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:257312861497:android:66d258f27a02a06c3fcce8",
+        "android_client_info": {
+          "package_name": "fr.guibs.historia"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKQ2cmUQWSOtZMNuk_sWv7gX48nfaj0xs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
